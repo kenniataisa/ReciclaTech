@@ -1,29 +1,50 @@
 # :checkered_flag: NOME DO PROJETO
 
-Breve descrição do que o seu projeto faz.
+ReciclaTech - Plataforma de Economia Circular para Resíduos Eletrônicos
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+Nome: Kennia Taisa Silva Santos
+Matrícula: 571798
+Curso: Ciência da Computação
 
 ## :bulb: Objetivo Geral
-Descrever o objetivo de geral do projeto
+ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar dispositivos eletrônicos com pontos de coleta autorizados, promovendo a conscientização ambiental e o descarte correto de resíduos eletrônicos na comunidade.
 
 ## :eyes: Público-Alvo
-Público-alvo do projeto
-
+- Comunidade acadêmica e geral que necessita descartar equipamentos eletrônicos
+- Pontos de coleta de resíduos eletrônicos
+- Empresas recicladoras
 ## :star2: Impacto Esperado
-Descreva o impacto esperado do projeto em relação ao público alvo
+- Aumento do descarte correto de resíduos eletrônicos na comunidade
+- Conscientização sobre impactos ambientais do lixo eletrônico
+- Facilitação do acesso a pontos de coleta adequados
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
-
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
-
+1. Administrador
+  - Gerenciamento de usuários e pontos de coleta
+  - Acesso a relatórios básicos
+    
+2.Ponto de Coleta
+  - Gerenciamento de horários
+  - Registro de recebimentos
+   
+3. Usuário Comum
+  - Registro de dispositivos
+  - Agendamento de entregas
+    
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+Funcionalidades Públicas
+  - Consulta de pontos de coleta
+  - Visualização de materiais aceitos
+  - Informações sobre reciclagem
+  - 
+Funcionalidades Restritas
+  - Cadastro e gestão de dispositivos
+  - Agendamento de coletas
+  - Gestão de pontos de coleta
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
