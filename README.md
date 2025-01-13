@@ -1,4 +1,4 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: ReciclaTech
 
 ReciclaTech - Plataforma de Economia Circular para Resíduos Eletrônicos
 
