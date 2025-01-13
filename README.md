@@ -40,7 +40,7 @@ Funcionalidades Públicas
   - Consulta de pontos de coleta
   - Visualização de materiais aceitos
   - Informações sobre reciclagem
-  - 
+    
 Funcionalidades Restritas
   - Cadastro e gestão de dispositivos
   - Agendamento de coletas
