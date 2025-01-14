@@ -4,9 +4,9 @@ ReciclaTech - Plataforma de Economia Circular para Resíduos Eletrônicos
 
 ## :technologist: Membros da equipe
 
-Nome: Kennia Taisa Silva Santos
-Matrícula: 571798
-Curso: Ciência da Computação
+Nome: Kennia Taisa Silva Santos \n
+Matrícula: 571798 \n
+Curso: Ciência da Computação \n
 
 ## :bulb: Objetivo Geral
 ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar dispositivos eletrônicos com pontos de coleta autorizados, promovendo a conscientização ambiental e o descarte correto de resíduos eletrônicos na comunidade.
