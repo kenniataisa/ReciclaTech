@@ -36,23 +36,37 @@ ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar disp
     
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Funcionalidades Públicas
+**Funcionalidades Públicas**
   - Consulta de pontos de coleta
   - Visualização de materiais aceitos
   - Informações sobre reciclagem
     
-Funcionalidades Restritas
+**Funcionalidades Restritas**
   - Cadastro e gestão de dispositivos
   - Agendamento de coletas
   - Gestão de pontos de coleta
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Liste as principais entidades do sistema.
+1. Usuários
+  - nome
+  - email
+  - senha
+  - tipo
+  - endereço
 
-
-----
-
+2. Pontos de Coleta
+  - nome
+  - endereço
+  - horário_funcionamento
+  - tipos_aceitos
+    
+3. Agendamentos
+  - usuario_id
+  - ponto_coleta_id
+  - data_hora
+  - status
+  - dispositivos
 :warning::warning::warning: As informações a seguir devem ser enviadas juntamente com a versão final do projeto. :warning::warning::warning:
 
 
@@ -61,12 +75,14 @@ Liste as principais entidades do sistema.
 ## :desktop_computer: Tecnologias e frameworks utilizados
 
 **Frontend:**
-
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+  - HTML5
+  - CSS3
+  - TypeScript
+  - Bootstrap 5
 
 **Backend:**
-
-Lista as tecnologias, frameworks e bibliotecas utilizados.
+  - Strapi v4
+  - SQLite
 
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
@@ -74,9 +90,9 @@ Lista as tecnologias, frameworks e bibliotecas utilizados.
 
 | Entidade| Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
-| Entidade 1 | X |  X  |  | X |
-| Entidade 2 | X |    |  X | X |
-| Entidade 3 | X |    |  |  |
+| Pontos de Coleta | X |  X  | X | X |
+| Agendamentos | X |  X |  X | X |
+| Usuários | X |  X  | X |  |
 
 > Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
 
@@ -84,5 +100,10 @@ Lista as tecnologias, frameworks e bibliotecas utilizados.
 
 | Método HTTP | URL |
 | --- | --- |
-| GET | api/entidade1/|
-| POST | api/entidade2 |
+| GET | api/collection-points|
+| POST | api/collection-points |
+| GET | api/shedules|
+| POST | api/shedules|
+| PUT | /api/schedules/{id}|
+| GET | api/users|
+| POST | api/auth/local|
