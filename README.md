@@ -49,24 +49,24 @@ ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar disp
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
 1. Usuários
-    - nome
-    - email
-    - senha
-    - tipo
-    - endereço
+  - nome
+  - email
+  - senha
+  - tipo
+  - endereço
 
 2. Pontos de Coleta
-    - nome
-    - endereço
-    - horário_funcionamento
-    - tipos_aceitos
-      
+  - nome
+  - endereço
+  - horário_funcionamento
+  - tipos_aceitos
+    
 3. Agendamentos
-    - usuario_id
-    - ponto_coleta_id
-    - data_hora
-    - status
-    - dispositivos
+  - usuario_id
+  - ponto_coleta_id
+  - data_hora
+  - status
+  - dispositivos
 ----
 
 ## :desktop_computer: Tecnologias e frameworks utilizados
