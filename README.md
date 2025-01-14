@@ -91,8 +91,6 @@ ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar disp
 | Agendamentos | X |  X |  X | X |
 | Usuários | X |  X  | X |  |
 
-> Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
-
 ## :neckbeard: Rotas da API REST utilizadas
 
 | Método HTTP | URL |
