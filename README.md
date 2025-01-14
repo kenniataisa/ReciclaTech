@@ -26,7 +26,7 @@ ReciclaTech é uma plataforma web que conecta pessoas que desejam descartar disp
   - Gerenciamento de usuários e pontos de coleta
   - Acesso a relatórios básicos
     
-2.Ponto de Coleta
+2. Ponto de Coleta
   - Gerenciamento de horários
   - Registro de recebimentos
    
