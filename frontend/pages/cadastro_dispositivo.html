@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReciclaTech - Cadastrar Dispositivo</title>
+</head>
+<body>
+    <h2>Cadastrar um Dispositivo</h2>
+
+    <form action="dashboard.html" method="post">
+        <label for="tipo">Tipo de Dispositivo:</label>
+        <select id="tipo" name="tipo">
+            <option>Smartphone</option>
+            <option>Notebook</option>
+            <option>Tablet</option>
+            <option>Desktop</option>
+            <option>Outro</option>
+        </select>
+
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="estado">Estado de Conservação:</label>
+        <select id="estado" name="estado">
+            <option>Funcionando</option>
+            <option>Com defeito</option>
+            <option>Não funciona</option>
+        </select>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <p><a href="home.html">Voltar ao início</a></p>
+</body>
+</html>
+
